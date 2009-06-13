@@ -1,0 +1,7 @@
+= plist
+
+This is a fixed version of the plist library for the 1.9 tree of the Ruby programming language. This is basically just a few syntax fixes. If you find any bugs, please let me know and I'll get them fixed up as soon as I can.
+
+= Etc.
+
+For plist information, see the README file for original author information
