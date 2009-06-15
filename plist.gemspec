@@ -11,14 +11,5 @@ Gem::Specification.new do |s|
     s.extra_rdoc_files  = %w(README)
     s.require_paths     = %w(lib)
     s.required_ruby_version = '>= 1.9.0'
-    description         = []
-    File.open("README") do |file|
-        file.each do |line|
-            line.chomp!
-            break if line.empty?
-            description << "#{line.gsub(/\[\d\]/, '')}"
-        end
-    end
-    s.description = description[1..-1].join(" ")
-    
+    s.description = "Ruby plist library"
 end
