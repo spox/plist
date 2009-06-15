@@ -7,12 +7,12 @@ spec = Gem::Specification.new do |s|
     s.platform          = Gem::Platform::RUBY
     s.has_rdoc          = true
     s.files             = Dir['**/*']
-    s.rdoc_options      = %w(--title plist --main README.txt --line-numbers)
-    s.extra_rdoc_files  = %w(README.txt)
+    s.rdoc_options      = %w(--title plist --main README --line-numbers)
+    s.extra_rdoc_files  = %w(README)
     s.require_paths     = %w(lib)
     s.required_ruby_version = '>= 1.9.0'
     description         = []
-    File.open("README.txt") do |file|
+    File.open("README") do |file|
         file.each do |line|
             line.chomp!
             break if line.empty?
